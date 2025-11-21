@@ -1,0 +1,23 @@
+services:
+  - type: web
+    name: lesotho-events-backend
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: SUPABASE_URL
+        fromDatabase:
+          name: supabase
+          property: connectionString
+      - key: JWT_SECRET
+        generateValue: true
+      - key: MPESA_CONSUMER_KEY
+        sync: false
+      - key: MPESA_CONSUMER_SECRET
+        sync: false
+      - key: MPESA_BUSINESS_SHORTCODE
+        sync: false
+      - key: MPESA_PASSKEY
+        sync: false
