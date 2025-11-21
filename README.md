@@ -135,13 +135,13 @@ Start Backend
 bash
 cd server
 npm run dev
-# Server runs on http://localhost:5000
+# Server runs on https://lesotho-events-backend.onrender.com
 Start Frontend
 
 bash
 cd client
 npm run dev
-# Application runs on http://localhost:3000
+# Application runs on https://lesothoevents.netlify.app/
 📁 Project Structure
 text
 lesotho-events-calendar/
@@ -191,10 +191,6 @@ Frontend (.env)
 
 env
 VITE_API_BASE_URL=http://localhost:5000/api
-
-# Deployment Urls
-- Frontend: https://lesothoevents.netlify.app/
-- Backend: https://lesotho-events-backend.onrender.com
 
 # Screenshots
 <img width="1256" height="665" alt="image" src="https://github.com/user-attachments/assets/1812f0b1-1b26-48fe-887f-841f44cf3e28" />
@@ -395,3 +391,4 @@ For support and questions:
 Built with ❤️ for the Lesotho Events Community
 
 Making event discovery and management seamless across the Mountain Kingdom 🏔️
+
