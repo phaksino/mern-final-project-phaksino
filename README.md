@@ -1,4 +1,4 @@
-🎪 Lesotho Events Calendar - Event Management System
+#🎪 Lesotho Events Calendar - Event Management System
 A comprehensive event management platform built for Lesotho, featuring M-Pesa mobile payments, digital ticketing, and social sharing capabilities.
 
 🌟 Features
@@ -391,4 +391,5 @@ For support and questions:
 Built with ❤️ for the Lesotho Events Community
 
 Making event discovery and management seamless across the Mountain Kingdom 🏔️
+
 
